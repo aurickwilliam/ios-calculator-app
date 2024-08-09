@@ -9,7 +9,7 @@ class Operator_Btn(ctk.CTkButton):
         self.configure(text=text,
                        fg_color=operator_color,
                        text_color=operator_text,
-                       font=arial_reg)
+                       font=arial_reg)  
 
 
 class Number_Btn(ctk.CTkButton):

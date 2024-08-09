@@ -28,7 +28,7 @@ class App(ctk.CTk):
                               text_color=output_text,
                               font=output_font,
                               textvariable=self.output_var)
-        output.place(relx=1, rely=0.8, anchor="se")
+        output.place(relx=0.98, rely=0.8, anchor="se")
 
         return frame
 
@@ -52,7 +52,6 @@ class App(ctk.CTk):
 
         divide_btn = button.Operator_Btn(frame, "÷")
         divide_btn.grid(row=0, column=3, sticky="nswe", padx=5, pady=5)
-
 
         # Second Row
         seven_btn = button.Number_Btn(frame, "7")
@@ -106,5 +105,6 @@ class App(ctk.CTk):
         return frame
 
 
-# Run the App
-App("iOS Calculator App", (350, 600))
+if __name__ == '__main__':
+    # Run the App
+    App("iOS Calculator App", (350, 600))
