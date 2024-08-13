@@ -9,7 +9,8 @@ class Operator_Btn(ctk.CTkButton):
         self.configure(text=text,
                        fg_color=operator_color,
                        text_color=operator_text,
-                       font=arial_reg)  
+                       font=arial_reg,
+                       hover_color=operator_hover_color)
 
 
 class Number_Btn(ctk.CTkButton):
@@ -19,7 +20,8 @@ class Number_Btn(ctk.CTkButton):
         self.configure(text=text,
                        fg_color=num_color,
                        text_color=num_text,
-                       font=arial_reg)
+                       font=arial_reg,
+                       hover_color=num_hover_color)
 
 
 class Semi_Operator_Btn(ctk.CTkButton):
@@ -29,4 +31,5 @@ class Semi_Operator_Btn(ctk.CTkButton):
         self.configure(text=text,
                        fg_color=semi_operator_color,
                        text_color=semi_operator_text,
-                       font=arial_reg)
+                       font=arial_reg,
+                       hover_color=semi_operator_hover_color)

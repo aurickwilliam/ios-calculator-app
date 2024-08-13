@@ -1,7 +1,11 @@
 # Button Colors
 operator_color = "#FE9505"
+operator_hover_color = "#CE7A06"
+operator_active_color = "#F1B96B"
 semi_operator_color = "#A5A5A5"
+semi_operator_hover_color = "#817E7E"
 num_color = "#333333"
+num_hover_color = "#686565"
 
 # Text Color
 operator_text = "#FFF"
